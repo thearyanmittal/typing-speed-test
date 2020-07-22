@@ -331,7 +331,7 @@ while True:
         # ask to show graph of results over time if two or more tests have been taken (overall)
         test_count = len(open('stats_file.txt').readlines())
 
-        if test_count >= 2:
+        if test_count >= 2: #if the number of lines (i.e. entries) in the .txt file is more than 1 test
             while True:
                 graph_response = input("Would you like to see a graph of your stats over time? Enter 'y' for yes or 'n' for no.\n")
                 if graph_response in ('y', 'n'):
