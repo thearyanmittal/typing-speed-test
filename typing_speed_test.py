@@ -409,18 +409,9 @@ while True:
             print("Please enter either y or n.")
         if run_again == 'y':
             blank_lines(200)
-            continue
         else:
-            while True:
-                mad_libs = input("Would you like to play another Python game called Mad Libs? Enter 'y' for yes or 'n' for no.\n")
-                if mad_libs in ('y', 'n'):
-                    break
-                print("Please enter either 'y' or 'n'.")
-            if mad_libs == 'y':
-                os.startfile("C:\\Users\\Aryan Mittal\\Documents\\Python\\mad_libs.py")
-            else:
-                input()
-                break
+            break
+            
     else:
         while True:
             restart_input = input("You did not enter any text. Please enter 'y' to restart or 'n' to end the application.\n")
