@@ -139,8 +139,10 @@ word_10 = ("Historically, the fundamental role of pharmacists as a healthcare pr
 "jurisdictions, pharmacists have prescriptive authority to either independently prescribe under their own authority or in collaboration " +
 "with a primary care physician through an agreed upon protocol.")
 
+word_11 = ("The leakage intensifies, rapidly filling up rooms in the U-boat.")
+
 #put them all into a list
-passages = [word_1, word_2, word_3, word_4, word_5, word_6, word_7, word_8, word_9, word_10]
+passages = [word_11]
 
 # initialize variable lists for matplotlib analysis: [accuracy_list], [gross_wpm_list], [net_wpm_list], test_count
 accuracy_list = []
@@ -162,7 +164,7 @@ while True:
     else:
         sleep = 3
 
-    print("Welcome to WPM Typing Test, a test created in Python 3.7.4. Simply type the following passage and see your results!")
+    print("Welcome to WPM Typing Test. Simply type the following passage and see your results!")
     time.sleep(sleep)
 
     print("Your WPM speed will be adjusted to correctly represent your accuracy and raw typing speed.")
